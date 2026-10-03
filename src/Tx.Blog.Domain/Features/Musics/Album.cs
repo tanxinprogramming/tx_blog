@@ -66,7 +66,7 @@ public class Album : FullAuditedAggregateRoot<Guid>
     ///
     /// 如果有专辑艺人就指向
     /// </summary>
-    public Artist? Artist { get; set; }
+    public Artist? AlbumArtist { get; set; }
 
     // /// <summary>
     // /// 导航属性

@@ -25,7 +25,7 @@ public class AlbumConfig : IEntityTypeConfiguration<Album>
         builder.Property(x => x.CatalogNumber)
             .HasMaxLength(AlbumConsts.CatelogNumberMaxLength);
 
-        builder.HasOne<Artist>(x => x.Artist)
+        builder.HasOne<Artist>(x => x.AlbumArtist)
             .WithMany()
             .HasForeignKey(x => x.AlbumArtistId)
             .OnDelete(DeleteBehavior.Restrict);
