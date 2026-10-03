@@ -16,5 +16,5 @@ public static class AlbumArtistRelationConsts
     
     // ArtistOrder 无配置
 
-    // IsPrimary 无配置
+    // IsPrimaryArtist 无配置
 }

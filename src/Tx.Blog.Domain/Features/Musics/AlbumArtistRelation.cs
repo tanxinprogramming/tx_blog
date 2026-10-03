@@ -37,5 +37,5 @@ public class AlbumArtistRelation : FullAuditedAggregateRoot<Guid>
     /// <summary>
     /// 是否主要。
     /// </summary>
-    public bool IsPrimary { get; set; }
+    public bool IsPrimaryArtist { get; set; }
 }
