@@ -17,7 +17,7 @@ public class AudioTrack : FullAuditedAggregateRoot<Guid>
     /// <summary>
     /// 文件路径。
     /// </summary>
-    public string FilePath { get; set; }
+    public required string FilePath { get; set; }
 
     /// <summary>
     /// 格式。

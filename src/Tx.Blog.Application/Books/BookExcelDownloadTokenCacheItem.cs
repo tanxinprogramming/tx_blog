@@ -1,5 +1,3 @@
-using System;
-
 namespace Tx.Blog.Books;
 
 [Serializable]

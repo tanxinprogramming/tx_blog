@@ -127,10 +127,13 @@ public class BlogDbContext :
         {
             foreach (var property in entityType.GetProperties())
             {
-                if (property.ClrType == typeof(DateTimeOffset) ||
-                    property.ClrType == typeof(DateTimeOffset?))
+                if (property.ClrType == typeof(DateTimeOffset))
                 {
                     property.SetValueConverter(DateTimeOffsetConverter.Instance);
+                }
+                else if (property.ClrType == typeof(DateTimeOffset?))
+                {
+                    property.SetValueConverter(DateTimeOffsetConverter.NullableInstance);
                 }
             }
         }

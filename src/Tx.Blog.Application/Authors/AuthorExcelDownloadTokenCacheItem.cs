@@ -1,5 +1,3 @@
-using System;
-
 namespace Tx.Blog.Authors;
 
 [Serializable]

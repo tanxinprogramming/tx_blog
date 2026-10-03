@@ -19,7 +19,7 @@ public class LyricConfig : IEntityTypeConfiguration<Lyric>
         
         builder.Property(x => x.Content)
             .IsRequired()
-            .HasMaxLength(LyricConsts.ContentMaxLength);
+            .HasColumnType("text");
         
         builder.Property(x => x.Copyright)
             .HasMaxLength(LyricConsts.CopyrightMaxLength);

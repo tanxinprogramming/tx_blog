@@ -16,9 +16,7 @@ public static class LyricConsts
     public const int SecondaryLanguageMinLength = 1;
     public const int SecondaryLanguageMaxLength = 32;
 
-    // Content
-    public const int ContentMinLength = 1;
-    public const int ContentMaxLength = 4000;
+    // Content 无配置
 
     // Copyright
     public const int CopyrightMinLength = 1;

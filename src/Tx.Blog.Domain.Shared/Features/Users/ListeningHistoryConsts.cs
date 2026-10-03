@@ -1,6 +1,6 @@
 ﻿namespace Tx.Blog.Features.Users;
 
-public class ListeningHistoryConsts
+public static class ListeningHistoryConsts
 {
     // PlayedAt 无配置
 

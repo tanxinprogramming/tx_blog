@@ -13,4 +13,9 @@ public static class DateTimeOffsetConverter
         new(
             v => v.ToUniversalTime(),
             v => v);
+    
+    public static readonly ValueConverter<DateTimeOffset?, DateTimeOffset?> NullableInstance =
+        new(
+            v => v.HasValue ? v.Value.ToUniversalTime() : null,
+            v => v);
 }
