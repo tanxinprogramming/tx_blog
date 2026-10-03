@@ -1,8 +1,5 @@
-using System.Collections.Generic;
 using System.Globalization;
-using System.Threading.Tasks;
 using Volo.Abp.AspNetCore.Mvc.UI.RazorPages;
-using Volo.Abp.Localization;
 using Volo.Abp.OpenIddict.Applications;
 
 namespace Tx.Blog.Pages;

@@ -2,9 +2,10 @@
  * 修改日期：20261001
  * 状态：已完成
  */
+
 using Tx.Blog.Features.Commons;
 
-namespace Tx.Blog.Features.Persons;
+namespace Tx.Blog.Features.Artists;
 
 /// <summary>
 /// 人员角色。

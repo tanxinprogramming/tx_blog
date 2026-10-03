@@ -1,0 +1,7 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "ErrorCode:InvalidSortingField": "Sorting Field '{field}' Invalid。",
+    "ErrorCode:InvalidCountryCode": "Country '{countryCode}' is not a 'ISO 3166-1 alpha-2' country code(etc. CN,JP,US)."
+  }
+}

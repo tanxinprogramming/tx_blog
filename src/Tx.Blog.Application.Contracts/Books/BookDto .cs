@@ -1,6 +1,4 @@
-﻿using System;
-using Volo.Abp.Application.Dtos;
-namespace Tx.Blog.Books;
+﻿namespace Tx.Blog.Books;
 public class BookDto : AuditedEntityDto<Guid>
 {
     public string Name { get; set; }

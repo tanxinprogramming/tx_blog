@@ -1,7 +1,5 @@
 ﻿using Microsoft.Extensions.Localization;
 using Tx.Blog.Localization;
-using Volo.Abp.DependencyInjection;
-using Volo.Abp.Ui.Branding;
 
 namespace Tx.Blog;
 

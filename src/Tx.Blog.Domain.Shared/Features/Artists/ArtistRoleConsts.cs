@@ -2,7 +2,7 @@
  * 修改日期：20261001
  * 状态：已完成
  */
-namespace Tx.Blog.Features.Persons;
+namespace Tx.Blog.Features.Artists;
 
 public static class ArtistRoleConsts
 {

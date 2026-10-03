@@ -1,0 +1,17 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "Permission:Persons": "Person Management",
+    "Permission:Persons.Create": "Creating new persons",
+    "Permission:Persons.Edit": "Editing the persons",
+    "Permission:Persons.Delete": "Deleting the persons",
+
+    "Person:Name": "Name",
+    "Person:OriginalName": "Original Name",
+    "Person:BirthDate": "Birth Date",
+    "Person:Country": "Country",
+    "Person:Description": "Description",
+    "Person:IsActive": "Is Active",
+    "Person:Artists": "Artists"
+  }
+}

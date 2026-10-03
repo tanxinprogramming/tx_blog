@@ -2,6 +2,7 @@ using System;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Tx.Blog.Authors;
 using Tx.Blog.Books;
+using Tx.Blog.Features.Artists;
 using Tx.Blog.Features.Commons;
 using Tx.Blog.Features.Musics;
 using Tx.Blog.Features.Persons;

@@ -32,6 +32,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Localization\Blog\*.json" />
     <Content Remove="Localization\Blog\*.json" />
+    <EmbeddedResource Include="Localization\Country\en.json" />
+    <EmbeddedResource Include="Localization\Country\zh-Hans.json" />
+    <EmbeddedResource Include="Localization\ErrorCode\en.json" />
+    <EmbeddedResource Include="Localization\ErrorCode\zh-Hans.json" />
+    <EmbeddedResource Include="Localization\Person\en.json" />
+    <EmbeddedResource Include="Localization\Person\zh-Hans.json" />
   </ItemGroup>
 
 </Project>

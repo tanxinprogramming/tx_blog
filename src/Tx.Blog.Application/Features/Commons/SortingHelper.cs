@@ -1,5 +1,11 @@
-﻿namespace Tx.Blog.Features.Commons;
+﻿using Tx.Blog.Features.Exceptions;
 
+namespace Tx.Blog.Features.Commons;
+
+/// <summary>
+/// 通用白名单排序辅助类。
+/// 支持多列排序、别名映射、方向指定。
+/// </summary>
 public static class SortingHelper
 {
     public static IQueryable<T> ApplySorting<T>(
@@ -22,8 +28,9 @@ public static class SortingHelper
                              && tokens[1].Equals("desc", StringComparison.OrdinalIgnoreCase);
 
             if (!aliasMap.TryGetValue(alias, out var realField))
-                throw new BusinessException("Tx:InvalidSortingField")
-                    .WithData("Field", alias);
+            {
+                throw new InvalidSortingFieldException(alias);
+            }
 
             parsed.Add($"{realField} {(descending ? "DESC" : "ASC")}");
         }

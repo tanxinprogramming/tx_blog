@@ -3,7 +3,6 @@ using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.Identity;
-using Volo.Abp.Localization;
 using Volo.Abp.Localization.ExceptionHandling;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.Modularity;
@@ -49,6 +48,24 @@ public class BlogDomainSharedModule : AbpModule
                 .AddBaseTypes(typeof(AbpValidationResource))
                 .AddVirtualJson("/Localization/Blog");
 
+            // Person 资源
+            options.Resources
+                .Add<PersonResource>("en")
+                .AddBaseTypes(typeof(AbpValidationResource))
+                .AddVirtualJson("/Localization/Person");
+            
+            // Country 资源
+            options.Resources
+                .Add<CountryResource>("en")
+                .AddBaseTypes(typeof(AbpValidationResource))
+                .AddVirtualJson("/Localization/Coutry");
+            
+            // ErrorCode 资源
+            options.Resources
+                .Add<ErrorCodeResource>("en")
+                .AddBaseTypes(typeof(AbpValidationResource))
+                .AddVirtualJson("/Localization/ErrorCode");
+            
             options.DefaultResourceType = typeof(BlogResource);
             
             options.Languages.Add(new LanguageInfo("en", "en", "English")); 
@@ -72,12 +89,11 @@ public class BlogDomainSharedModule : AbpModule
             options.Languages.Add(new LanguageInfo("es", "es", "Spanish")); 
             options.Languages.Add(new LanguageInfo("sv", "sv", "Swedish")); 
             options.Languages.Add(new LanguageInfo("tr", "tr", "Turkish")); 
-
         });
         
         Configure<AbpExceptionLocalizationOptions>(options =>
         {
-            options.MapCodeNamespace("Blog", typeof(BlogResource));
+            options.MapCodeNamespace("ErrorCode", typeof(ErrorCodeResource));
         });
     }
 }

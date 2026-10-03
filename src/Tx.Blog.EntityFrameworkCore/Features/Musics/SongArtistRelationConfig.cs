@@ -3,6 +3,7 @@
  * 状态：已完成
  */
 
+using Tx.Blog.Features.Artists;
 using Tx.Blog.Features.Persons;
 
 namespace Tx.Blog.Features.Musics;
