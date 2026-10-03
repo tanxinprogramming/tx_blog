@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "10/03/2026 05:01:47 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Tx.Blog.Application": {
+      "path": "src/Tx.Blog.Application/Tx.Blog.Application.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.Application.Tests": {
+      "path": "test/Tx.Blog.Application.Tests/Tx.Blog.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Tx.Blog.Domain.Shared": {
+      "path": "src/Tx.Blog.Domain.Shared/Tx.Blog.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.Application.Contracts": {
+      "path": "src/Tx.Blog.Application.Contracts/Tx.Blog.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.HttpApi": {
+      "path": "src/Tx.Blog.HttpApi/Tx.Blog.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.HttpApi.Client": {
+      "path": "src/Tx.Blog.HttpApi.Client/Tx.Blog.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.EntityFrameworkCore.Tests": {
+      "path": "test/Tx.Blog.EntityFrameworkCore.Tests/Tx.Blog.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Tx.Blog.EntityFrameworkCore": {
+      "path": "src/Tx.Blog.EntityFrameworkCore/Tx.Blog.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.TestBase": {
+      "path": "test/Tx.Blog.TestBase/Tx.Blog.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Tx.Blog.Domain.Tests": {
+      "path": "test/Tx.Blog.Domain.Tests/Tx.Blog.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Tx.Blog.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Tx.Blog.HttpApi.Client.ConsoleTestApp/Tx.Blog.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Tx.Blog.DbMigrator": {
+      "path": "src/Tx.Blog.DbMigrator/Tx.Blog.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.HttpApi.Host": {
+      "path": "src/Tx.Blog.HttpApi.Host/Tx.Blog.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Tx.Blog.Domain": {
+      "path": "src/Tx.Blog.Domain/Tx.Blog.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Tx.Blog.Domain/Tx.Blog.Domain.csproj" />
+        <Project Path="src/Tx.Blog.Application/Tx.Blog.Application.csproj" />
+        <Project Path="src/Tx.Blog.EntityFrameworkCore/Tx.Blog.EntityFrameworkCore.csproj" />
+        <Project Path="src/Tx.Blog.Domain.Shared/Tx.Blog.Domain.Shared.csproj" />
+        <Project Path="src/Tx.Blog.Application.Contracts/Tx.Blog.Application.Contracts.csproj" />
+        <Project Path="src/Tx.Blog.HttpApi/Tx.Blog.HttpApi.csproj" />
+        <Project Path="src/Tx.Blog.HttpApi.Client/Tx.Blog.HttpApi.Client.csproj" />
+        <Project Path="src/Tx.Blog.HttpApi.Host/Tx.Blog.HttpApi.Host.csproj" />
+        <Project Path="src/Tx.Blog.DbMigrator/Tx.Blog.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Tx.Blog.Application.Tests/Tx.Blog.Application.Tests.csproj" />
+        <Project Path="test/Tx.Blog.EntityFrameworkCore.Tests/Tx.Blog.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Tx.Blog.TestBase/Tx.Blog.TestBase.csproj" />
+        <Project Path="test/Tx.Blog.Domain.Tests/Tx.Blog.Domain.Tests.csproj" />
+        <Project Path="test/Tx.Blog.HttpApi.Client.ConsoleTestApp/Tx.Blog.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>
