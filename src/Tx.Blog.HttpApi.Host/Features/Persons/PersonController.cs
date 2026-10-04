@@ -5,9 +5,12 @@ using Volo.Abp.Application.Dtos;
 
 namespace Tx.Blog.Features.Persons;
 
-[RemoteService]
+[Area("blog")]                          // ABP 内部分组
+[RemoteService(Name = "person")]          // 远程服务逻辑名，proxy 用
 [Route("api/persons")]
-public class PersonController(IPersonAppService personAppService) : TxBlogControllerBase
+public class PersonController(
+    IPersonAppService personAppService
+) : TxBlogControllerBase
 {
 
     [HttpGet("{id}")]

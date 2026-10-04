@@ -1,6 +1,6 @@
 ﻿using Tx.Blog.Features.Exceptions;
 
-namespace Tx.Blog.Features.Commons;
+namespace Tx.Blog.Features.Commons.Helpers;
 
 /// <summary>
 /// 通用白名单排序辅助类。

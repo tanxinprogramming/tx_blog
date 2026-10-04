@@ -58,7 +58,7 @@ public class BlogDomainSharedModule : AbpModule
             options.Resources
                 .Add<CountryResource>("en")
                 .AddBaseTypes(typeof(AbpValidationResource))
-                .AddVirtualJson("/Localization/Coutry");
+                .AddVirtualJson("/Localization/Country");
             
             // ErrorCode 资源
             options.Resources

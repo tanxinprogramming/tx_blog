@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Tx.Blog.Features.Artists;
-using Tx.Blog.Features.Commons;
+using Tx.Blog.Features.Commons.Helpers;
 using Tx.Blog.Features.Persons.Dtos;
 using Tx.Blog.Permissions;
 using Volo.Abp.Application.Dtos;

@@ -1,8 +1,7 @@
 ﻿using System.Collections.Frozen;
-using System.Globalization;
 using Tx.Blog.Features.Exceptions;
 
-namespace Tx.Blog.Features.Commons;
+namespace Tx.Blog.Features.Commons.Helpers;
 
 public static class CountryCodeValidateHelper
 {
