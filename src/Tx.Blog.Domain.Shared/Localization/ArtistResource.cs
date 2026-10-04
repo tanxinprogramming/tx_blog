@@ -1,4 +1,4 @@
 ﻿namespace Tx.Blog.Localization;
 
-[LocalizationResourceName("Blog")]
+[LocalizationResourceName("Artist")]
 public class ArtistResource : BlogResource;
