@@ -1,15 +1,6 @@
 {
   "Culture": "en",
   "Texts": {
-    "AppName": "Blog",
-    "Menu:Blog": "Book Store",
-    "Menu:Books": "Books",
-    "Menu:Authors": "Authors",
-    "Actions": "Actions",
-    "Close": "Close",
-    "Delete": "Delete",
-    "Edit": "Edit",
-    "ExportToExcel": "Export to Excel",
     "PublishDate": "Publish date",
     "NewBook": "New book",
     "NewAuthor": "New author",
@@ -20,7 +11,6 @@
     "ShortBio": "Short bio",
     "Type": "Type",
     "Price": "Price",
-    "CreationTime": "Creation time",
     "AreYouSure": "Are you sure?",
     "AreYouSureToDelete": "Are you sure you want to delete this item?",
     "BookDeletionConfirmationMessage": "Are you sure to delete the book '{0}'?",
@@ -43,8 +33,52 @@
     "Permission:Authors.Create": "Creating new authors",
     "Permission:Authors.Edit": "Editing the authors",
     "Permission:Authors.Delete": "Deleting the authors",
+    
+ 
     "Menu:Home": "Home",
-    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
-    "Welcome": "Welcome"
+    "Menu:Blog": "Book Store",
+    "Menu:Books": "Books",
+    "Menu:Authors": "Authors",
+
+    "PropertyValue:All": "All",
+    "PropertyValue:Active": "Active",
+    "PropertyValue:Inactive": "Inactive",
+
+    "Action:Actions": "Actions",
+    "Action:Search": "Search",
+    "Action:Reset": "Reset",
+    "Action:Create": "Create",
+    "Action:Edit": "Edit",
+    "Action:Close": "Close",
+    "Action:Delete": "Delete",
+    "Action:ImportFromExcel": "Import from excel",
+    "Action:ExportToExcel": "Export to excel",
+    "Action:ChoosePicture": "Choose a picture",
+    "Action:ChooseFile": "Choose a file",
+    
+    "Text:AppName": "Blog",
+    "Text:Welcome": "Welcome",
+    "Text:LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+    "Text:DeleteConfirmTitle": "Deletion Confirm",
+    "Text:DeleteConfirmMessage": "Are you sure deleting '{0}'? This action can not undo.",
+    "Text:DeleteSuccess": "Delete success",
+    "Text:Date": "Date",
+    "Text:Language": "Language",
+    "Text:LoadMore": "Load More",
+    "Text:Settings": "Settings",
+    "Text:Theme": "Theme",
+    "Text:DeviceTheme": "DeviceTheme",
+    "Text:Dark": "Dark",
+    "Text:Light": "Light",
+    "Text:System": "System",
+    
+    "PropertyName:IsActive": "Is Active",
+    "PropertyName:CreationTime": "Creation time",
+    "PropertyName:CreatorId": "Creator Id",
+    "PropertyName:LastModificationTime": "Last Modification Time",
+    "PropertyName:LastModifierId": "Last Modifier Id",
+    "PropertyName:IsDeleted": "Is Deleted",
+    "PropertyName:DeleterId": "Deleter Id",
+    "PropertyName:DeletionTime": "Deletion Time"
   }
 }

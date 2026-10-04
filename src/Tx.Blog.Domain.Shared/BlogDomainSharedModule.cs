@@ -54,6 +54,12 @@ public class BlogDomainSharedModule : AbpModule
                 .AddBaseTypes(typeof(AbpValidationResource))
                 .AddVirtualJson("/Localization/Person");
             
+            // Artist 资源
+            options.Resources
+                .Add<ArtistResource>("en")
+                .AddBaseTypes(typeof(AbpValidationResource))
+                .AddVirtualJson("/Localization/Artist");
+            
             // Country 资源
             options.Resources
                 .Add<CountryResource>("en")

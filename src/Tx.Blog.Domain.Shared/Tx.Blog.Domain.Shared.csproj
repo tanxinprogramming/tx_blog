@@ -30,6 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Localization\Artist\en.json" />
+    <EmbeddedResource Include="Localization\Artist\zh-Hans.json" />
     <EmbeddedResource Include="Localization\Blog\*.json" />
     <Content Remove="Localization\Blog\*.json" />
     <EmbeddedResource Include="Localization\Country\en.json" />
