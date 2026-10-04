@@ -5,10 +5,12 @@ using Volo.Abp.Localization;
 
 namespace Tx.Blog.Features.Commons;
 
+[Authorize]
 public class CountryAppService(
     IStringLocalizerFactory localizerFactory
 ) : TxBlogAppService, ICountryAppService
 {
+    [AllowAnonymous]
     public List<string> GetCountries()
     {
         var localizer = localizerFactory.Create<CountryResource>();
@@ -25,6 +27,6 @@ public class CountryAppService(
                 .ToList();
         }
 
-        return new List<string>();
+        return [];
     }
 }
