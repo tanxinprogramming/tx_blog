@@ -6,21 +6,21 @@
     "Permission:Persons.Edit": "编辑人员",
     "Permission:Persons.Delete": "删除人员",
 
-    "Person:PropertyName:Name": "名称",
-    "Person:PropertyName:OriginalName": "本名",
-    "Person:PropertyName:BirthDate": "出生日期",
-    "Person:PropertyName:Country": "国家",
-    "Person:PropertyName:Description": "描述",
-    "Person:PropertyName:Artists": "艺名",
+    "PropertyName:Name": "名称",
+    "PropertyName:OriginalName": "本名",
+    "PropertyName:BirthDate": "出生日期",
+    "PropertyName:Country": "国家",
+    "PropertyName:Description": "描述",
+    "PropertyName:Artists": "艺名",
 
-    "Person:Action:Create": "创建人员",
-    "Person:Action:Edit": "编辑人员",
-    "Person:Action:AddArtist": "添加艺名",
+    "Action:Create": "创建人员",
+    "Action:Edit": "编辑人员",
+    "Action:AddArtist": "添加艺名",
 
-    "Person:Text:PersonList": "人员列表",
-    "Person:Text:PersonDetail": "人员信息",
-    "Person:Text:SearchByName": "姓名包含",
-    "Person:Text:FilterByCountry": "国家",
-    "Person:Text:PersonDetails": "人员明细"
+    "Text:PersonList": "人员列表",
+    "Text:PersonDetail": "人员信息",
+    "Text:SearchByName": "姓名包含",
+    "Text:FilterByCountry": "国家",
+    "Text:PersonDetails": "人员明细"
   }
 }

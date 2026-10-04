@@ -6,13 +6,13 @@
     "Permission:Artists.Edit": "编辑艺名",
     "Permission:Artists.Delete": "删除艺名",
 
-    "Artist:PropertyName:Name": "名称",
-    "Artist:PropertyName:PersonId": "所属人员Id",
-    "Artist:PropertyName:Person": "所属人员",
+    "PropertyName:Name": "名称",
+    "PropertyName:PersonId": "所属人员Id",
+    "PropertyName:Person": "所属人员",
 
-    "Artist:Action:Create": "创建艺名",
-    "Artist:Action:Edit": "编辑艺名",
+    "Action:Create": "创建艺名",
+    "Action:Edit": "编辑艺名",
 
-    "Artist:Text:NoArtists": "无艺名"
+    "Text:NoArtists": "无艺名"
   }
 }

@@ -20,8 +20,7 @@ public class BlogDbContextFactory : IDesignTimeDbContextFactory<BlogDbContext>
         BlogEfCoreEntityExtensionMappings.Configure();
 
         var builder = new DbContextOptionsBuilder<BlogDbContext>()
-            .UseNpgsql(configuration.GetConnectionString("Default"))
-            .UseSnakeCaseNamingConvention();
+            .UseNpgsql(configuration.GetConnectionString("Default"));
         
         return new BlogDbContext(builder.Options);
     }

@@ -27,10 +27,12 @@
     "Menu:Blog": "书屋",
     "Menu:Books": "书",
     "Menu:Authors": "作者",
+    "Menu:Persons": "人员",
 
     "PropertyValue:All": "全部",
     "PropertyValue:Active": "激活",
     "PropertyValue:Inactive": "未激活",
+    "PropertyValue:Null": "Null",
 
     "Action:Actions": "操作",
     "Action:Search": "搜索",
@@ -43,10 +45,12 @@
     "Action:ExportToExcel": "导出Excel",
     "Action:ChoosePicture": "选择图片",
     "Action:ChooseFile": "选择文件",
+    "Action:BackToList": "退回列表界面",
     
     "Text:AppName": "Tx博客",
     "Text:Welcome": "欢迎",
     "Text:LongWelcomeMessage": "欢迎使用本应用程序。这是一个基于 ABP 框架的启动项目。欲了解更多信息，请访问",
+    "Text:SaveSuccess": "保存成功",
     "Text:DeleteConfirmTitle": "确认删除",
     "Text:DeleteConfirmMessage": "确定要删除「{0}」吗？此操作不可撤销。",
     "Text:DeleteSuccess": "删除成功",
@@ -67,6 +71,11 @@
     "PropertyName:LastModifierId": "最后修改人",
     "PropertyName:IsDeleted": "已删除",
     "PropertyName:DeleterId": "删除人",
-    "PropertyName:DeletionTime": "删除时间"
+    "PropertyName:DeletionTime": "删除时间",
+
+    "FormError:ThisFieldIsRequired": "此字段为必填项",
+    "FormError:MinLength": "长度不能少于 {0} 个字符",
+    "FormError:MaxLength": "长度不能超过 {0} 个字符",
+    "FormError:Invalid": "输入无效"
   }
 }

@@ -39,11 +39,13 @@
     "Menu:Blog": "Book Store",
     "Menu:Books": "Books",
     "Menu:Authors": "Authors",
+    "Menu:Persons": "Persons",
 
     "PropertyValue:All": "All",
     "PropertyValue:Active": "Active",
     "PropertyValue:Inactive": "Inactive",
-
+    "PropertyValue:Null": "Null",
+    
     "Action:Actions": "Actions",
     "Action:Search": "Search",
     "Action:Reset": "Reset",
@@ -55,10 +57,12 @@
     "Action:ExportToExcel": "Export to excel",
     "Action:ChoosePicture": "Choose a picture",
     "Action:ChooseFile": "Choose a file",
+    "Action:BackToList": "Back to list",
     
     "Text:AppName": "Blog",
     "Text:Welcome": "Welcome",
     "Text:LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+    "Text:SaveSuccess": "Save success",
     "Text:DeleteConfirmTitle": "Deletion Confirm",
     "Text:DeleteConfirmMessage": "Are you sure deleting '{0}'? This action can not undo.",
     "Text:DeleteSuccess": "Delete success",
@@ -79,6 +83,11 @@
     "PropertyName:LastModifierId": "Last Modifier Id",
     "PropertyName:IsDeleted": "Is Deleted",
     "PropertyName:DeleterId": "Deleter Id",
-    "PropertyName:DeletionTime": "Deletion Time"
+    "PropertyName:DeletionTime": "Deletion Time",
+
+    "FormError:ThisFieldIsRequired": "This field is required",
+    "FormError:MinLength": "Must be at least {0} characters",
+    "FormError:MaxLength": "Must not exceed {0} characters",
+    "FormError:Invalid": "Invalid input"
   }
 }

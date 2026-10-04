@@ -6,21 +6,21 @@
     "Permission:Persons.Edit": "Editing the persons",
     "Permission:Persons.Delete": "Deleting the persons",
 
-    "Person:PropertyName:Name": "Name",
-    "Person:PropertyName:OriginalName": "Original Name",
-    "Person:PropertyName:BirthDate": "Birth Date",
-    "Person:PropertyName:Country": "Country",
-    "Person:PropertyName:Description": "Description",
-    "Person:PropertyName:Artists": "Artists",
+    "PropertyName:Name": "Name",
+    "PropertyName:OriginalName": "Original Name",
+    "PropertyName:BirthDate": "Birth Date",
+    "PropertyName:Country": "Country",
+    "PropertyName:Description": "Description",
+    "PropertyName:Artists": "Artists",
 
-    "Person:Action:Create": "Create Person",
-    "Person:Action:Edit": "Edit Person",
-    "Person:Action:AddArtist": "Add Artist",
+    "Action:Create": "Create Person",
+    "Action:Edit": "Edit Person",
+    "Action:AddArtist": "Add Artist",
     
-    "Person:Text:PersonList": "Person List",
-    "Person:Text:PersonDetail": "Person Detail",
-    "Person:Text:SearchByName": "Name contains",
-    "Person:Text:FilterByCountry": "Country",
-    "Person:Text:PersonDetails": "Person Details"
+    "Text:PersonList": "Person List",
+    "Text:PersonDetail": "Person Detail",
+    "Text:SearchByName": "Name contains",
+    "Text:FilterByCountry": "Country",
+    "Text:PersonDetails": "Person Details"
   }
 }

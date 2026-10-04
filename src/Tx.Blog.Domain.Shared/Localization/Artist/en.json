@@ -6,13 +6,13 @@
     "Permission:Artists.Edit": "Editing the artists",
     "Permission:Artists.Delete": "Deleting the artists",
 
-    "Artist:PropertyName:Name": "Name",
-    "Artist:PropertyName:PersonId": "Person Id",
-    "Artist:PropertyName:Person": "Person",
+    "PropertyName:Name": "Name",
+    "PropertyName:PersonId": "Person Id",
+    "PropertyName:Person": "Person",
 
-    "Artist:Action:Create": "Create Artist",
-    "Artist:Action:Edit": "Edit Artist",
+    "Action:Create": "Create Artist",
+    "Action:Edit": "Edit Artist",
     
-    "Artist:Text:NoArtists": "No Artists"
+    "Text:NoArtists": "No Artists"
   }
 }
