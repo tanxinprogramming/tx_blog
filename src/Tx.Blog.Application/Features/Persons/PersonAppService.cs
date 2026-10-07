@@ -1,19 +1,18 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Tx.Blog.Features.Artists;
-using Tx.Blog.Features.Commons.Helpers;
+﻿using Microsoft.AspNetCore.Authorization;
 using Tx.Blog.Features.Persons.Dtos;
+using Tx.Blog.Features.Persons.Events;
 using Tx.Blog.Permissions;
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Domain.Entities;
 using Volo.Abp.Domain.Repositories;
+using Volo.Abp.EventBus.Local;
 
 namespace Tx.Blog.Features.Persons;
 
 [Authorize(BlogPermissions.Persons.Default)]
 public class PersonAppService(
-    IRepository<Person, Guid> personRepository,  
-    IRepository<Artist, Guid> artistRepository
+    IRepository<Person, Guid> personRepository,
+    ILocalEventBus eventBus
     // BlogPersonToPersonListItemResponseMapper blogPersonToPersonListItemResponseMapper,
     // BlogPersonToPersonDetailResponseMapper blogPersonToPersonDetailResponseMapper,
     // BlogPersonCreateRequestToPersonMapper blogPersonCreateRequestToPersonMapper,
@@ -96,7 +95,8 @@ public class PersonAppService(
     [Authorize(BlogPermissions.Persons.Delete)]
     public virtual async Task DeleteAsync(Guid id)
     {
-        await artistRepository.DeleteAsync(x => x.PersonId == id);
+        var person = await personRepository.GetAsync(id);
         await personRepository.DeleteAsync(id);
+        await eventBus.PublishAsync(new PersonDeletedEvent(person));
     }
 }

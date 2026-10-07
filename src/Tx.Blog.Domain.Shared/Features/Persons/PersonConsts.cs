@@ -17,8 +17,8 @@ public static class PersonConsts
     // BirthDate 无配置
     
     // Country
-    public const int CountryMinLength = 1;
-    public const int CountryMaxLength = 128;
+    public const int CountryMinLength = 2;
+    public const int CountryMaxLength = 2;
     
     // Description
     public const int DescriptionMinLength = 1;

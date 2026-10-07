@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using Tx.Blog.Features.Commons;
-using Tx.Blog.Features.Commons.Helpers;
 using Tx.Blog.Features.Persons.Dtos;
 
 namespace Tx.Blog.Features.Persons.Validators;

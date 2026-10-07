@@ -30,6 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ISO3166" Version="1.0.4" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <EmbeddedResource Include="Localization\Artist\en.json" />
     <EmbeddedResource Include="Localization\Artist\zh-Hans.json" />
     <EmbeddedResource Include="Localization\Blog\*.json" />
